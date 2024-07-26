@@ -1,0 +1,16 @@
+date: today
+date-format: long
+execute:
+  echo: false
+  enabled: true
+format:
+  dashboard:
+    embed-resources: true
+    link-external-newwindow: true
+    scrolling: true
+jupyter: python3
+output-file: A1234_Summary_20240726-123916Z.html
+project:
+  output-dir: C:\Users\CORK-LAB9\Downloads\Repo\Dummy_Data/
+theme: custom.scss
+title: Summary for A1234

@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+$navbar-bg: #212529;
+$navbar-fg: #ffffff !default;
+
+// fonts
+$font-family-sans-serif: "Cambria";
+
+/*-- scss:rules --*/
+.card-header {
+  background-color: #86b7fe;
+}
+
+.quarto-dashboard .bslib-value-box .value-box-value {
+    font-size: clamp(.1em, 10cqw, 5em) !important;
+}
