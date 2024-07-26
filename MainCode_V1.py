@@ -9,7 +9,7 @@ import yaml
 from pytz import timezone
 import datetime as dt
 
-_path = r'C:\Users\CORK-LAB9\Downloads\Repo\Dummy_Data'
+_path = r'C:\Users\Downloads\Repo\Dummy_Data'
 Task = 'T12345'
 
 # Hardcoded variables:
