@@ -9,11 +9,16 @@ import yaml
 from pytz import timezone
 import datetime as dt
 
-_path = r'C:\Users\Downloads\Repo\Dummy_Data'
+#_path = r'C:\Users\Downloads\Repo\Dummy_Data'
 Task = 'T12345'
 
+
+_path = pathlib.Path(__file__).parent
+output_meta_data_csv = _path / 'A1234_Data.csv'
+
+
 # Hardcoded variables:
-output_meta_data_csv = _path+'\A1234_Data.csv' # csv file used for simulations
+#output_meta_data_csv = _path+'\A1234_Data.csv' # csv file used for simulations
 short_device_current_limit = 1e-11
 short_device_voltage_limit = 0.5
 
