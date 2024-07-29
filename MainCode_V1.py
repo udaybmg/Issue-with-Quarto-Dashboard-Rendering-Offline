@@ -14,7 +14,7 @@ Task = 'T12345'
 
 
 _path = pathlib.Path(__file__).parent
-output_meta_data_csv = _path / 'A1234_Data.csv'
+output_meta_data_csv = _path +'\' + 'A1234_Data.csv'
 
 
 # Hardcoded variables:
