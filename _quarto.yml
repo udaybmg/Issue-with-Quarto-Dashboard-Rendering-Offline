@@ -9,8 +9,8 @@ format:
     link-external-newwindow: true
     scrolling: true
 jupyter: python3
-output-file: A1234_Summary_20240726-123916Z.html
+output-file: A1234_Summary_20240730-121216Z.html
 project:
-  output-dir: C:\Users\CORK-LAB9\Downloads\Repo\Dummy_Data/
+  output-dir: C:\Users\CORK-LAB9\Downloads\DATA_Reports_Self_path/
 theme: custom.scss
 title: Summary for A1234
