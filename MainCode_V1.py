@@ -19,9 +19,7 @@ short_device_current_limit = 1e-11 # defines the short device in DAT401 & DAT410
 short_device_voltage_limit = 0.5 # defines the short device in DAT420 & DAT421 measurement
 
 short_device_voltage_limit_DAT431 = 0.5 # defined in the Test Butler DAT431 script
-"""
-DO NOT EDIT BELOW THIS LINE UNLESS YOU ARE 100% SURE.
-"""
+
 
 short_device_current_limit_pA = short_device_current_limit * 1e12
 task_number = Task.split('T')[-1]
